@@ -1,0 +1,463 @@
+2020-11-02 00:22:31,197 INFO [main] h.j.c.m.Glavna [Glavna.java:26] Aplikacija je pokrenuta!
+2020-11-02 00:22:34,580 INFO [main] h.j.c.m.Glavna [Glavna.java:314] Unesen je naziv županije!
+2020-11-02 00:22:38,141 INFO [main] h.j.c.m.Glavna [Glavna.java:321] Unesen je broj stanovnika: 1000000!
+2020-11-02 00:22:38,141 INFO [main] h.j.c.m.Glavna [Glavna.java:332] Uspješno unesena županija!
+2020-11-02 00:22:39,748 INFO [main] h.j.c.m.Glavna [Glavna.java:314] Unesen je naziv županije!
+2020-11-02 00:22:41,780 ERROR [main] h.j.c.m.Glavna [Glavna.java:325] Pogreška kod unosa broja, unesen je String umjesto brojčane vrijednosti!
+2020-11-02 00:22:44,365 INFO [main] h.j.c.m.Glavna [Glavna.java:321] Unesen je broj stanovnika: 20000!
+2020-11-02 00:22:44,366 INFO [main] h.j.c.m.Glavna [Glavna.java:332] Uspješno unesena županija!
+2020-11-02 00:22:46,672 INFO [main] h.j.c.m.Glavna [Glavna.java:314] Unesen je naziv županije!
+2020-11-02 00:22:48,436 INFO [main] h.j.c.m.Glavna [Glavna.java:321] Unesen je broj stanovnika: 100000!
+2020-11-02 00:22:48,436 INFO [main] h.j.c.m.Glavna [Glavna.java:332] Uspješno unesena županija!
+2020-11-02 00:25:53,480 INFO [main] h.j.c.m.Glavna [Glavna.java:26] Aplikacija je pokrenuta!
+2020-11-02 00:25:55,700 INFO [main] h.j.c.m.Glavna [Glavna.java:314] Unesen je naziv županije!
+2020-11-02 00:25:57,996 INFO [main] h.j.c.m.Glavna [Glavna.java:321] Unesen je broj stanovnika: 1000000!
+2020-11-02 00:25:57,997 INFO [main] h.j.c.m.Glavna [Glavna.java:332] Uspješno unesena županija!
+2020-11-02 00:25:59,076 INFO [main] h.j.c.m.Glavna [Glavna.java:314] Unesen je naziv županije!
+2020-11-02 00:26:01,006 ERROR [main] h.j.c.m.Glavna [Glavna.java:325] Pogreška kod unosa broja, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosZupanije(Glavna.java:320)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:29)
+2020-11-02 00:26:03,164 INFO [main] h.j.c.m.Glavna [Glavna.java:321] Unesen je broj stanovnika: 20000!
+2020-11-02 00:26:03,164 INFO [main] h.j.c.m.Glavna [Glavna.java:332] Uspješno unesena županija!
+2020-11-02 00:26:04,347 INFO [main] h.j.c.m.Glavna [Glavna.java:314] Unesen je naziv županije!
+2020-11-02 00:26:05,868 INFO [main] h.j.c.m.Glavna [Glavna.java:321] Unesen je broj stanovnika: 100000!
+2020-11-02 00:26:05,868 INFO [main] h.j.c.m.Glavna [Glavna.java:332] Uspješno unesena županija!
+2020-11-02 11:16:31,419 INFO [main] h.j.c.m.Glavna [Glavna.java:26] Aplikacija je pokrenuta!
+2020-11-02 11:16:44,945 INFO [main] h.j.c.m.Glavna [Glavna.java:351] Unesen je naziv 1. županije: GRAD ZAGREB
+2020-11-02 11:16:47,865 ERROR [main] h.j.c.m.Glavna [Glavna.java:362] Pogreška kod unosa broja stanovnika 1. županije, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosZupanije(Glavna.java:357)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:29)
+2020-11-02 11:16:52,184 INFO [main] h.j.c.m.Glavna [Glavna.java:358] Unesen je broj stanovnika 1. županije: 1000000
+2020-11-02 11:16:52,185 INFO [main] h.j.c.m.Glavna [Glavna.java:369] Uspješno unesena 1. županija!
+2020-11-02 11:17:02,581 INFO [main] h.j.c.m.Glavna [Glavna.java:351] Unesen je naziv 2. županije: MEĐIMURSKA
+2020-11-02 11:17:04,620 ERROR [main] h.j.c.m.Glavna [Glavna.java:362] Pogreška kod unosa broja stanovnika 2. županije, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosZupanije(Glavna.java:357)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:29)
+2020-11-02 11:17:11,180 INFO [main] h.j.c.m.Glavna [Glavna.java:358] Unesen je broj stanovnika 2. županije: 34000
+2020-11-02 11:17:11,180 INFO [main] h.j.c.m.Glavna [Glavna.java:369] Uspješno unesena 2. županija!
+2020-11-02 11:17:13,989 INFO [main] h.j.c.m.Glavna [Glavna.java:351] Unesen je naziv 3. županije: SPLITSKA
+2020-11-02 11:17:19,228 INFO [main] h.j.c.m.Glavna [Glavna.java:358] Unesen je broj stanovnika 3. županije: 250000
+2020-11-02 11:17:19,229 INFO [main] h.j.c.m.Glavna [Glavna.java:369] Uspješno unesena 3. županija!
+2020-11-02 11:17:25,421 INFO [main] h.j.c.m.Glavna [Glavna.java:338] Unesen je naziv 1. simptoma: KASALJ
+2020-11-02 11:17:27,045 INFO [main] h.j.c.m.Glavna [Glavna.java:341] Unesena je vrijednost1. simptoma: RIJETKO
+2020-11-02 11:17:27,045 INFO [main] h.j.c.m.Glavna [Glavna.java:343] Uspješno unesen 1. simptom!
+2020-11-02 11:17:28,573 INFO [main] h.j.c.m.Glavna [Glavna.java:338] Unesen je naziv 2. simptoma: KIHANJE
+2020-11-02 11:17:30,532 INFO [main] h.j.c.m.Glavna [Glavna.java:341] Unesena je vrijednost2. simptoma: CESTO
+2020-11-02 11:17:30,533 INFO [main] h.j.c.m.Glavna [Glavna.java:343] Uspješno unesen 2. simptom!
+2020-11-02 11:17:33,932 INFO [main] h.j.c.m.Glavna [Glavna.java:338] Unesen je naziv 3. simptoma: TEMPERATURA
+2020-11-02 11:17:35,876 INFO [main] h.j.c.m.Glavna [Glavna.java:341] Unesena je vrijednost3. simptoma: SREDNJE
+2020-11-02 11:17:35,876 INFO [main] h.j.c.m.Glavna [Glavna.java:343] Uspješno unesen 3. simptom!
+2020-11-02 11:17:39,270 ERROR [main] h.j.c.m.Glavna [Glavna.java:243] Pogreška kod odabira 1. bolesti ili virusa, odabran je veći ili manji broj od ponuđenog: 0
+2020-11-02 11:17:41,324 ERROR [main] h.j.c.m.Glavna [Glavna.java:243] Pogreška kod odabira 1. bolesti ili virusa, odabran je veći ili manji broj od ponuđenog: 3
+2020-11-02 11:17:43,604 INFO [main] h.j.c.m.Glavna [Glavna.java:247] Uspješno odabrana 1. bolest ili virus: BOLEST
+2020-11-02 11:17:47,381 INFO [main] h.j.c.m.Glavna [Glavna.java:262] Unesen je naziv 1. bolesti ili virusa: PREHLADA
+2020-11-02 11:17:53,924 INFO [main] h.j.c.m.Glavna [Glavna.java:270] Unesen je broj simptoma 1. bolesti ili virusa: 0
+2020-11-02 11:17:53,925 INFO [main] h.j.c.m.Glavna [Glavna.java:312] Uspješno je unesena 1. bolest!
+2020-11-02 11:17:57,124 ERROR [main] h.j.c.m.Glavna [Glavna.java:243] Pogreška kod odabira 2. bolesti ili virusa, odabran je veći ili manji broj od ponuđenog: 0
+2020-11-02 11:17:59,076 ERROR [main] h.j.c.m.Glavna [Glavna.java:251] Pogreška kod odabira 2. bolesti ili virusa, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosBolesti(Glavna.java:238)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:35)
+2020-11-02 11:18:02,590 INFO [main] h.j.c.m.Glavna [Glavna.java:247] Uspješno odabrana 2. bolest ili virus: VIRUS
+2020-11-02 11:18:05,292 INFO [main] h.j.c.m.Glavna [Glavna.java:262] Unesen je naziv 2. bolesti ili virusa: GRIPA
+2020-11-02 11:18:06,888 INFO [main] h.j.c.m.Glavna [Glavna.java:270] Unesen je broj simptoma 2. bolesti ili virusa: 1
+2020-11-02 11:18:09,213 ERROR [main] h.j.c.m.Glavna [Glavna.java:305] Pogreška kod odabira 1. simptoma, unesen je veći ili manji broj od ponuđenog: 0
+2020-11-02 11:18:10,804 ERROR [main] h.j.c.m.Glavna [Glavna.java:305] Pogreška kod odabira 1. simptoma, unesen je veći ili manji broj od ponuđenog: 4
+2020-11-02 11:18:13,605 INFO [main] h.j.c.m.Glavna [Glavna.java:299] Uspješno je odabran 1. simptom: hr.java.covidportal.model.Simptom@4b553d26
+2020-11-02 11:18:13,606 INFO [main] h.j.c.m.Glavna [Glavna.java:316] Uspješno je unesen 2. virus!
+2020-11-02 11:18:17,133 INFO [main] h.j.c.m.Glavna [Glavna.java:247] Uspješno odabrana 3. bolest ili virus: BOLEST
+2020-11-02 11:18:21,636 INFO [main] h.j.c.m.Glavna [Glavna.java:262] Unesen je naziv 3. bolesti ili virusa: HERPES
+2020-11-02 11:18:23,128 INFO [main] h.j.c.m.Glavna [Glavna.java:270] Unesen je broj simptoma 3. bolesti ili virusa: 1
+2020-11-02 11:18:25,440 ERROR [main] h.j.c.m.Glavna [Glavna.java:321] Pogreška kod odabira simptoma 3. bolesti ili virusa, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosBolesti(Glavna.java:293)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:35)
+2020-11-02 11:18:30,716 INFO [main] h.j.c.m.Glavna [Glavna.java:262] Unesen je naziv 3. bolesti ili virusa: HERPES
+2020-11-02 11:18:32,572 INFO [main] h.j.c.m.Glavna [Glavna.java:270] Unesen je broj simptoma 3. bolesti ili virusa: 1
+2020-11-02 11:18:34,333 ERROR [main] h.j.c.m.Glavna [Glavna.java:326] Pogreška kod odabira simptoma 3. bolesti ili virusa, već postoji bolest ili virus sa istim simptomom/simptomima!
+hr.java.covidportal.iznimke.BolestIstihSimptoma: Pogrešan unos! Već si unio bolest ili virus s istim simptomima.
+	at hr.java.covidportal.main.Glavna.provjeraSimptoma(Glavna.java:404)
+	at hr.java.covidportal.main.Glavna.unosBolesti(Glavna.java:297)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:35)
+2020-11-02 11:18:37,804 INFO [main] h.j.c.m.Glavna [Glavna.java:262] Unesen je naziv 3. bolesti ili virusa: HERPES
+2020-11-02 11:18:39,196 INFO [main] h.j.c.m.Glavna [Glavna.java:270] Unesen je broj simptoma 3. bolesti ili virusa: 1
+2020-11-02 11:18:41,361 ERROR [main] h.j.c.m.Glavna [Glavna.java:305] Pogreška kod odabira 1. simptoma, unesen je veći ili manji broj od ponuđenog: 0
+2020-11-02 11:18:42,588 ERROR [main] h.j.c.m.Glavna [Glavna.java:305] Pogreška kod odabira 1. simptoma, unesen je veći ili manji broj od ponuđenog: 4
+2020-11-02 11:18:43,844 INFO [main] h.j.c.m.Glavna [Glavna.java:299] Uspješno je odabran 1. simptom: hr.java.covidportal.model.Simptom@2a556333
+2020-11-02 11:18:43,844 INFO [main] h.j.c.m.Glavna [Glavna.java:312] Uspješno je unesena 3. bolest!
+2020-11-02 11:18:45,756 INFO [main] h.j.c.m.Glavna [Glavna.java:247] Uspješno odabrana 4. bolest ili virus: VIRUS
+2020-11-02 11:18:47,582 INFO [main] h.j.c.m.Glavna [Glavna.java:262] Unesen je naziv 4. bolesti ili virusa: KORONA
+2020-11-02 11:18:49,204 INFO [main] h.j.c.m.Glavna [Glavna.java:270] Unesen je broj simptoma 4. bolesti ili virusa: 2
+2020-11-02 11:18:50,072 INFO [main] h.j.c.m.Glavna [Glavna.java:299] Uspješno je odabran 1. simptom: hr.java.covidportal.model.Simptom@7d70d1b1
+2020-11-02 11:18:50,980 INFO [main] h.j.c.m.Glavna [Glavna.java:299] Uspješno je odabran 2. simptom: hr.java.covidportal.model.Simptom@2a556333
+2020-11-02 11:18:50,980 INFO [main] h.j.c.m.Glavna [Glavna.java:316] Uspješno je unesen 4. virus!
+2020-11-02 11:18:53,269 INFO [main] h.j.c.m.Glavna [Glavna.java:70] Uneseno ime 1. osobe: PERO
+2020-11-02 11:18:54,637 INFO [main] h.j.c.m.Glavna [Glavna.java:73] Uneseno prezime 1. osobe: PERIC
+2020-11-02 11:18:56,878 ERROR [main] h.j.c.m.Glavna [Glavna.java:85] Pogreška kod unosa starosti 1. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:80)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:37)
+2020-11-02 11:19:00,157 INFO [main] h.j.c.m.Glavna [Glavna.java:81] Uspješno unesena starost1. osobe: 45
+2020-11-02 11:19:02,124 ERROR [main] h.j.c.m.Glavna [Glavna.java:102] Pogreška kod unosa županije 1. osobe, unesen je veći ili manji broj od ponuđenog: 0
+2020-11-02 11:19:03,276 ERROR [main] h.j.c.m.Glavna [Glavna.java:102] Pogreška kod unosa županije 1. osobe, unesen je veći ili manji broj od ponuđenog: 4
+2020-11-02 11:19:04,660 ERROR [main] h.j.c.m.Glavna [Glavna.java:110] Pogreška kod unosa županije 1. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:104)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:37)
+2020-11-02 11:19:09,951 INFO [main] h.j.c.m.Glavna [Glavna.java:106] Uspješno unesena županija 1. osobe: hr.java.covidportal.model.Zupanija@2a742aa2
+2020-11-02 11:19:12,764 ERROR [main] h.j.c.m.Glavna [Glavna.java:135] Pogreška kod unosa bolesti 1. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:125)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:37)
+2020-11-02 11:19:14,404 ERROR [main] h.j.c.m.Glavna [Glavna.java:127] Pogreška kod unosa bolesti 1. osobe, unesen je veći ili manji broj od ponuđenog: 0
+2020-11-02 11:19:15,108 ERROR [main] h.j.c.m.Glavna [Glavna.java:127] Pogreška kod unosa bolesti 1. osobe, unesen je veći ili manji broj od ponuđenog: 5
+2020-11-02 11:19:19,837 INFO [main] h.j.c.m.Glavna [Glavna.java:131] Uspješno unesena bolest 1. osobe: hr.java.covidportal.model.Virus@3cb1ffe6
+2020-11-02 11:19:19,838 INFO [main] h.j.c.m.Glavna [Glavna.java:148] Uspješno je unesena 1. osoba!
+2020-11-02 11:19:21,748 INFO [main] h.j.c.m.Glavna [Glavna.java:70] Uneseno ime 2. osobe: IVO
+2020-11-02 11:19:22,621 INFO [main] h.j.c.m.Glavna [Glavna.java:73] Uneseno prezime 2. osobe: IVIC
+2020-11-02 11:19:24,955 ERROR [main] h.j.c.m.Glavna [Glavna.java:85] Pogreška kod unosa starosti 2. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:80)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:37)
+2020-11-02 11:19:26,684 INFO [main] h.j.c.m.Glavna [Glavna.java:81] Uspješno unesena starost2. osobe: 78
+2020-11-02 11:19:29,626 INFO [main] h.j.c.m.Glavna [Glavna.java:106] Uspješno unesena županija 2. osobe: hr.java.covidportal.model.Zupanija@4d50efb8
+2020-11-02 11:19:35,684 INFO [main] h.j.c.m.Glavna [Glavna.java:131] Uspješno unesena bolest 2. osobe: hr.java.covidportal.model.Bolest@7e2d773b
+2020-11-02 11:19:42,500 INFO [main] h.j.c.m.Glavna [Glavna.java:158] Uspješno je unesen broj osoba koje su bile u kontaktu s 2. osobom: 0
+2020-11-02 11:19:42,501 INFO [main] h.j.c.m.Glavna [Glavna.java:200] Uspješan unos kontaktiranih osoba 2. osobe!
+2020-11-02 11:19:42,501 INFO [main] h.j.c.m.Glavna [Glavna.java:221] Uspješan unos 2. osobe!
+2020-11-02 11:19:45,069 INFO [main] h.j.c.m.Glavna [Glavna.java:70] Uneseno ime 3. osobe: ANA
+2020-11-02 11:19:46,421 INFO [main] h.j.c.m.Glavna [Glavna.java:73] Uneseno prezime 3. osobe: ANIC
+2020-11-02 11:19:48,532 INFO [main] h.j.c.m.Glavna [Glavna.java:81] Uspješno unesena starost3. osobe: 55
+2020-11-02 11:19:50,198 ERROR [main] h.j.c.m.Glavna [Glavna.java:102] Pogreška kod unosa županije 3. osobe, unesen je veći ili manji broj od ponuđenog: 0
+2020-11-02 11:19:50,844 ERROR [main] h.j.c.m.Glavna [Glavna.java:102] Pogreška kod unosa županije 3. osobe, unesen je veći ili manji broj od ponuđenog: 4
+2020-11-02 11:19:51,797 ERROR [main] h.j.c.m.Glavna [Glavna.java:110] Pogreška kod unosa županije 3. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:104)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:37)
+2020-11-02 11:19:52,908 INFO [main] h.j.c.m.Glavna [Glavna.java:106] Uspješno unesena županija 3. osobe: hr.java.covidportal.model.Zupanija@2173f6d9
+2020-11-02 11:19:56,506 ERROR [main] h.j.c.m.Glavna [Glavna.java:135] Pogreška kod unosa bolesti 3. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:125)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:37)
+2020-11-02 11:19:57,812 INFO [main] h.j.c.m.Glavna [Glavna.java:131] Uspješno unesena bolest 3. osobe: hr.java.covidportal.model.Virus@307f6b8c
+2020-11-02 11:20:00,660 INFO [main] h.j.c.m.Glavna [Glavna.java:158] Uspješno je unesen broj osoba koje su bile u kontaktu s 3. osobom: 1
+2020-11-02 11:20:02,748 ERROR [main] h.j.c.m.Glavna [Glavna.java:196] Pogreška kod odabira 1. osobe, odabran je veći ili manji broj od ponuđenog: 0
+2020-11-02 11:20:04,805 ERROR [main] h.j.c.m.Glavna [Glavna.java:196] Pogreška kod odabira 1. osobe, odabran je veći ili manji broj od ponuđenog: 3
+2020-11-02 11:20:10,357 ERROR [main] h.j.c.m.Glavna [Glavna.java:204] Pogreška kod unosa kontaktiranih osoba 3. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:187)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:37)
+2020-11-02 11:20:14,172 INFO [main] h.j.c.m.Glavna [Glavna.java:190] Uspješno je odabrana 1. osoba: IVO IVIC
+2020-11-02 11:20:14,173 INFO [main] h.j.c.m.Glavna [Glavna.java:200] Uspješan unos kontaktiranih osoba 3. osobe!
+2020-11-02 11:20:14,173 INFO [main] h.j.c.m.Glavna [Glavna.java:221] Uspješan unos 3. osobe!
+2020-11-02 11:20:14,175 INFO [main] h.j.c.m.Glavna [Glavna.java:42] Završetak programa aplikacije!
+2020-11-02 11:20:14,176 INFO [main] h.j.c.m.Glavna [Glavna.java:43] --------------------------------------------------------------------------------------------------------------------------------------------------
+2020-11-02 19:44:46,169 INFO [main] h.j.c.m.Glavna [Glavna.java:35] Aplikacija je pokrenuta!
+2020-11-02 19:44:58,442 INFO [main] h.j.c.m.Glavna [Glavna.java:395] Unesen je naziv 1. županije: GRAD ZAGREB
+2020-11-02 19:45:01,283 ERROR [main] h.j.c.m.Glavna [Glavna.java:406] Pogreška kod unosa broja stanovnika 1. županije, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosZupanije(Glavna.java:401)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:38)
+2020-11-02 19:45:04,301 ERROR [main] h.j.c.m.Glavna [Glavna.java:406] Pogreška kod unosa broja stanovnika 1. županije, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosZupanije(Glavna.java:401)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:38)
+2020-11-02 19:45:06,950 INFO [main] h.j.c.m.Glavna [Glavna.java:402] Unesen je broj stanovnika 1. županije: 1000000
+2020-11-02 19:45:06,950 INFO [main] h.j.c.m.Glavna [Glavna.java:413] Uspješno unesena 1. županija!
+2020-11-02 19:45:12,590 INFO [main] h.j.c.m.Glavna [Glavna.java:395] Unesen je naziv 2. županije: MEĐIMURSKA
+2020-11-02 19:45:14,302 ERROR [main] h.j.c.m.Glavna [Glavna.java:406] Pogreška kod unosa broja stanovnika 2. županije, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosZupanije(Glavna.java:401)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:38)
+2020-11-02 19:45:18,150 INFO [main] h.j.c.m.Glavna [Glavna.java:402] Unesen je broj stanovnika 2. županije: 34000
+2020-11-02 19:45:18,150 INFO [main] h.j.c.m.Glavna [Glavna.java:413] Uspješno unesena 2. županija!
+2020-11-02 19:45:20,974 INFO [main] h.j.c.m.Glavna [Glavna.java:395] Unesen je naziv 3. županije: SPLITSKA
+2020-11-02 19:45:24,214 INFO [main] h.j.c.m.Glavna [Glavna.java:402] Unesen je broj stanovnika 3. županije: 2500000
+2020-11-02 19:45:24,214 INFO [main] h.j.c.m.Glavna [Glavna.java:413] Uspješno unesena 3. županija!
+2020-11-02 19:45:29,269 INFO [main] h.j.c.m.Glavna [Glavna.java:376] Unesen je naziv 1. simptoma: KASALJ
+2020-11-02 19:45:30,470 INFO [main] h.j.c.m.Glavna [Glavna.java:379] Unesena je vrijednost 1. simptoma: RIJETKO
+2020-11-02 19:45:30,470 INFO [main] h.j.c.m.Glavna [Glavna.java:381] Uspješno unesen 1. simptom!
+2020-11-02 19:45:32,014 INFO [main] h.j.c.m.Glavna [Glavna.java:376] Unesen je naziv 2. simptoma: KIHANJE
+2020-11-02 19:45:33,406 INFO [main] h.j.c.m.Glavna [Glavna.java:379] Unesena je vrijednost 2. simptoma: CESTO
+2020-11-02 19:45:33,406 INFO [main] h.j.c.m.Glavna [Glavna.java:381] Uspješno unesen 2. simptom!
+2020-11-02 19:45:36,558 INFO [main] h.j.c.m.Glavna [Glavna.java:376] Unesen je naziv 3. simptoma: TEMPERATURA
+2020-11-02 19:45:37,917 INFO [main] h.j.c.m.Glavna [Glavna.java:379] Unesena je vrijednost 3. simptoma: SREDNJE
+2020-11-02 19:45:37,918 INFO [main] h.j.c.m.Glavna [Glavna.java:381] Uspješno unesen 3. simptom!
+2020-11-02 19:45:40,807 ERROR [main] h.j.c.m.Glavna [Glavna.java:275] Pogreška kod odabira 1. bolesti ili virusa, odabran je veći ili manji broj od ponuđenog: 0
+2020-11-02 19:45:42,751 ERROR [main] h.j.c.m.Glavna [Glavna.java:275] Pogreška kod odabira 1. bolesti ili virusa, odabran je veći ili manji broj od ponuđenog: 3
+2020-11-02 19:45:45,093 ERROR [main] h.j.c.m.Glavna [Glavna.java:275] Pogreška kod odabira 1. bolesti ili virusa, odabran je veći ili manji broj od ponuđenog: 56
+2020-11-02 19:45:47,125 ERROR [main] h.j.c.m.Glavna [Glavna.java:283] Pogreška kod odabira 1. bolesti ili virusa, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosBolesti(Glavna.java:270)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:44)
+2020-11-02 19:45:50,398 INFO [main] h.j.c.m.Glavna [Glavna.java:279] Uspješno odabrana 1. bolest ili virus: BOLEST
+2020-11-02 19:45:53,758 INFO [main] h.j.c.m.Glavna [Glavna.java:294] Unesen je naziv 1. bolesti ili virusa: PREHLADA
+2020-11-02 19:46:05,989 INFO [main] h.j.c.m.Glavna [Glavna.java:302] Unesen je broj simptoma 1. bolesti ili virusa: 0
+2020-11-02 19:46:05,990 INFO [main] h.j.c.m.Glavna [Glavna.java:344] Uspješno je unesena 1. bolest!
+2020-11-02 19:46:10,349 ERROR [main] h.j.c.m.Glavna [Glavna.java:283] Pogreška kod odabira 2. bolesti ili virusa, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosBolesti(Glavna.java:270)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:44)
+2020-11-02 19:46:12,302 INFO [main] h.j.c.m.Glavna [Glavna.java:279] Uspješno odabrana 2. bolest ili virus: VIRUS
+2020-11-02 19:46:15,317 INFO [main] h.j.c.m.Glavna [Glavna.java:294] Unesen je naziv 2. bolesti ili virusa: GRIPA
+2020-11-02 19:46:18,825 INFO [main] h.j.c.m.Glavna [Glavna.java:302] Unesen je broj simptoma 2. bolesti ili virusa: 1
+2020-11-02 19:46:21,766 ERROR [main] h.j.c.m.Glavna [Glavna.java:337] Pogreška kod odabira 1. simptoma, unesen je veći ili manji broj od ponuđenog: 0
+2020-11-02 19:46:23,197 ERROR [main] h.j.c.m.Glavna [Glavna.java:337] Pogreška kod odabira 1. simptoma, unesen je veći ili manji broj od ponuđenog: 4
+2020-11-02 19:46:25,545 ERROR [main] h.j.c.m.Glavna [Glavna.java:353] Pogreška kod odabira simptoma 2. bolesti ili virusa, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosBolesti(Glavna.java:325)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:44)
+2020-11-02 19:46:29,789 INFO [main] h.j.c.m.Glavna [Glavna.java:294] Unesen je naziv 2. bolesti ili virusa: GRIPA
+2020-11-02 19:46:31,974 INFO [main] h.j.c.m.Glavna [Glavna.java:302] Unesen je broj simptoma 2. bolesti ili virusa: 1
+2020-11-02 19:46:33,133 INFO [main] h.j.c.m.Glavna [Glavna.java:331] Uspješno je odabran 1. simptom: TEMPERATURA
+2020-11-02 19:46:33,141 INFO [main] h.j.c.m.Glavna [Glavna.java:348] Uspješno je unesen 2. virus!
+2020-11-02 19:46:35,485 INFO [main] h.j.c.m.Glavna [Glavna.java:279] Uspješno odabrana 3. bolest ili virus: BOLEST
+2020-11-02 19:46:37,942 INFO [main] h.j.c.m.Glavna [Glavna.java:294] Unesen je naziv 3. bolesti ili virusa: HERPES
+2020-11-02 19:46:39,894 INFO [main] h.j.c.m.Glavna [Glavna.java:302] Unesen je broj simptoma 3. bolesti ili virusa: 1
+2020-11-02 19:46:43,837 ERROR [main] h.j.c.m.Glavna [Glavna.java:353] Pogreška kod odabira simptoma 3. bolesti ili virusa, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosBolesti(Glavna.java:325)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:44)
+2020-11-02 19:46:46,509 INFO [main] h.j.c.m.Glavna [Glavna.java:294] Unesen je naziv 3. bolesti ili virusa: HERPES
+2020-11-02 19:46:47,709 INFO [main] h.j.c.m.Glavna [Glavna.java:302] Unesen je broj simptoma 3. bolesti ili virusa: 1
+2020-11-02 19:46:50,333 ERROR [main] h.j.c.m.Glavna [Glavna.java:337] Pogreška kod odabira 1. simptoma, unesen je veći ili manji broj od ponuđenog: 4
+2020-11-02 19:46:51,670 ERROR [main] h.j.c.m.Glavna [Glavna.java:358] Pogreška kod odabira simptoma 3. bolesti ili virusa, već postoji bolest ili virus sa istim simptomom/simptomima!
+hr.java.covidportal.iznimke.BolestIstihSimptoma: Pogrešan unos! Već si unio bolest ili virus s istim simptomima.
+	at hr.java.covidportal.main.Glavna.provjeraSimptoma(Glavna.java:473)
+	at hr.java.covidportal.main.Glavna.unosBolesti(Glavna.java:329)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:44)
+2020-11-02 19:46:55,117 INFO [main] h.j.c.m.Glavna [Glavna.java:294] Unesen je naziv 3. bolesti ili virusa: HERPES
+2020-11-02 19:46:56,238 INFO [main] h.j.c.m.Glavna [Glavna.java:302] Unesen je broj simptoma 3. bolesti ili virusa: 2
+2020-11-02 19:46:57,429 INFO [main] h.j.c.m.Glavna [Glavna.java:331] Uspješno je odabran 1. simptom: KASALJ
+2020-11-02 19:46:58,157 INFO [main] h.j.c.m.Glavna [Glavna.java:331] Uspješno je odabran 2. simptom: KIHANJE
+2020-11-02 19:46:58,157 INFO [main] h.j.c.m.Glavna [Glavna.java:344] Uspješno je unesena 3. bolest!
+2020-11-02 19:47:00,165 INFO [main] h.j.c.m.Glavna [Glavna.java:279] Uspješno odabrana 4. bolest ili virus: BOLEST
+2020-11-02 19:47:03,917 INFO [main] h.j.c.m.Glavna [Glavna.java:294] Unesen je naziv 4. bolesti ili virusa: GROZNICA
+2020-11-02 19:47:05,693 INFO [main] h.j.c.m.Glavna [Glavna.java:302] Unesen je broj simptoma 4. bolesti ili virusa: 2
+2020-11-02 19:47:12,485 INFO [main] h.j.c.m.Glavna [Glavna.java:331] Uspješno je odabran 1. simptom: KASALJ
+2020-11-02 19:47:13,517 ERROR [main] h.j.c.m.Glavna [Glavna.java:358] Pogreška kod odabira simptoma 4. bolesti ili virusa, već postoji bolest ili virus sa istim simptomom/simptomima!
+hr.java.covidportal.iznimke.BolestIstihSimptoma: Pogrešan unos! Već si unio bolest ili virus s istim simptomima.
+	at hr.java.covidportal.main.Glavna.provjeraSimptoma(Glavna.java:473)
+	at hr.java.covidportal.main.Glavna.unosBolesti(Glavna.java:329)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:44)
+2020-11-02 19:47:17,931 INFO [main] h.j.c.m.Glavna [Glavna.java:294] Unesen je naziv 4. bolesti ili virusa: GROZNICA
+2020-11-02 19:47:23,101 INFO [main] h.j.c.m.Glavna [Glavna.java:302] Unesen je broj simptoma 4. bolesti ili virusa: 1
+2020-11-02 19:47:25,301 ERROR [main] h.j.c.m.Glavna [Glavna.java:353] Pogreška kod odabira simptoma 4. bolesti ili virusa, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosBolesti(Glavna.java:325)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:44)
+2020-11-02 19:47:31,101 INFO [main] h.j.c.m.Glavna [Glavna.java:294] Unesen je naziv 4. bolesti ili virusa: GROZNICA
+2020-11-02 19:47:32,222 INFO [main] h.j.c.m.Glavna [Glavna.java:302] Unesen je broj simptoma 4. bolesti ili virusa: 1
+2020-11-02 19:47:32,805 ERROR [main] h.j.c.m.Glavna [Glavna.java:358] Pogreška kod odabira simptoma 4. bolesti ili virusa, već postoji bolest ili virus sa istim simptomom/simptomima!
+hr.java.covidportal.iznimke.BolestIstihSimptoma: Pogrešan unos! Već si unio bolest ili virus s istim simptomima.
+	at hr.java.covidportal.main.Glavna.provjeraSimptoma(Glavna.java:473)
+	at hr.java.covidportal.main.Glavna.unosBolesti(Glavna.java:329)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:44)
+2020-11-02 19:47:36,677 INFO [main] h.j.c.m.Glavna [Glavna.java:294] Unesen je naziv 4. bolesti ili virusa: GROZNICA
+2020-11-02 19:47:38,181 INFO [main] h.j.c.m.Glavna [Glavna.java:302] Unesen je broj simptoma 4. bolesti ili virusa: 1
+2020-11-02 19:47:39,093 INFO [main] h.j.c.m.Glavna [Glavna.java:331] Uspješno je odabran 1. simptom: KIHANJE
+2020-11-02 19:47:39,094 INFO [main] h.j.c.m.Glavna [Glavna.java:344] Uspješno je unesena 4. bolest!
+2020-11-02 19:47:40,966 INFO [main] h.j.c.m.Glavna [Glavna.java:94] Uneseno ime 1. osobe: PERO
+2020-11-02 19:47:41,925 INFO [main] h.j.c.m.Glavna [Glavna.java:97] Uneseno prezime 1. osobe: PERIC
+2020-11-02 19:47:43,390 ERROR [main] h.j.c.m.Glavna [Glavna.java:109] Pogreška kod unosa starosti 1. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:104)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:46)
+2020-11-02 19:47:45,206 INFO [main] h.j.c.m.Glavna [Glavna.java:105] Uspješno unesena starost1. osobe: 34
+2020-11-02 19:47:46,973 ERROR [main] h.j.c.m.Glavna [Glavna.java:126] Pogreška kod unosa županije 1. osobe, unesen je veći ili manji broj od ponuđenog: 0
+2020-11-02 19:47:48,069 ERROR [main] h.j.c.m.Glavna [Glavna.java:134] Pogreška kod unosa županije 1. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:128)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:46)
+2020-11-02 19:47:49,838 ERROR [main] h.j.c.m.Glavna [Glavna.java:126] Pogreška kod unosa županije 1. osobe, unesen je veći ili manji broj od ponuđenog: 4
+2020-11-02 19:47:52,070 INFO [main] h.j.c.m.Glavna [Glavna.java:130] Uspješno unesena županija 1. osobe: MEĐIMURSKA
+2020-11-02 19:47:54,317 ERROR [main] h.j.c.m.Glavna [Glavna.java:151] Pogreška kod unosa bolesti 1. osobe, unesen je veći ili manji broj od ponuđenog: 0
+2020-11-02 19:47:55,078 INFO [main] h.j.c.m.Glavna [Glavna.java:155] Uspješno unesena bolest 1. osobe: GROZNICA
+2020-11-02 19:47:55,084 INFO [main] h.j.c.m.Glavna [Glavna.java:172] Uspješno je unesena 1. osoba!
+2020-11-02 19:48:02,990 INFO [main] h.j.c.m.Glavna [Glavna.java:94] Uneseno ime 2. osobe: IVO
+2020-11-02 19:48:03,982 INFO [main] h.j.c.m.Glavna [Glavna.java:97] Uneseno prezime 2. osobe: IVIC
+2020-11-02 19:48:06,133 INFO [main] h.j.c.m.Glavna [Glavna.java:105] Uspješno unesena starost2. osobe: 56
+2020-11-02 19:48:12,686 ERROR [main] h.j.c.m.Glavna [Glavna.java:134] Pogreška kod unosa županije 2. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:124)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:46)
+2020-11-02 19:48:13,741 INFO [main] h.j.c.m.Glavna [Glavna.java:130] Uspješno unesena županija 2. osobe: SPLITSKA
+2020-11-02 19:48:16,381 ERROR [main] h.j.c.m.Glavna [Glavna.java:151] Pogreška kod unosa bolesti 2. osobe, unesen je veći ili manji broj od ponuđenog: 0
+2020-11-02 19:48:17,045 ERROR [main] h.j.c.m.Glavna [Glavna.java:151] Pogreška kod unosa bolesti 2. osobe, unesen je veći ili manji broj od ponuđenog: 5
+2020-11-02 19:48:18,494 ERROR [main] h.j.c.m.Glavna [Glavna.java:159] Pogreška kod unosa bolesti 2. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:153)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:46)
+2020-11-02 19:48:26,949 INFO [main] h.j.c.m.Glavna [Glavna.java:155] Uspješno unesena bolest 2. osobe: PREHLADA
+2020-11-02 19:48:28,742 INFO [main] h.j.c.m.Glavna [Glavna.java:182] Uspješno je unesen broj osoba koje su bile u kontaktu s 2. osobom: 1
+2020-11-02 19:48:30,510 ERROR [main] h.j.c.m.Glavna [Glavna.java:228] Pogreška kod unosa kontaktiranih osoba 2. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:211)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:46)
+2020-11-02 19:48:33,685 ERROR [main] h.j.c.m.Glavna [Glavna.java:220] Pogreška kod odabira 1. kontaktirane osobe, odabran je veći ili manji broj od ponuđenog: 0
+2020-11-02 19:48:34,465 ERROR [main] h.j.c.m.Glavna [Glavna.java:220] Pogreška kod odabira 1. kontaktirane osobe, odabran je veći ili manji broj od ponuđenog: 2
+2020-11-02 19:48:35,507 INFO [main] h.j.c.m.Glavna [Glavna.java:214] Uspješno je odabrana 1. osoba: PERO PERIC
+2020-11-02 19:48:35,507 INFO [main] h.j.c.m.Glavna [Glavna.java:224] Uspješan unos kontaktiranih osoba 2. osobe!
+2020-11-02 19:48:35,507 INFO [main] h.j.c.m.Glavna [Glavna.java:245] Uspješan unos 2. osobe!
+2020-11-02 19:48:37,158 INFO [main] h.j.c.m.Glavna [Glavna.java:94] Uneseno ime 3. osobe: ANA
+2020-11-02 19:48:38,640 INFO [main] h.j.c.m.Glavna [Glavna.java:97] Uneseno prezime 3. osobe: ANIC
+2020-11-02 19:48:39,949 INFO [main] h.j.c.m.Glavna [Glavna.java:105] Uspješno unesena starost3. osobe: 78
+2020-11-02 19:48:42,339 ERROR [main] h.j.c.m.Glavna [Glavna.java:134] Pogreška kod unosa županije 3. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:124)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:46)
+2020-11-02 19:48:44,310 ERROR [main] h.j.c.m.Glavna [Glavna.java:126] Pogreška kod unosa županije 3. osobe, unesen je veći ili manji broj od ponuđenog: 78
+2020-11-02 19:48:46,613 INFO [main] h.j.c.m.Glavna [Glavna.java:130] Uspješno unesena županija 3. osobe: SPLITSKA
+2020-11-02 19:48:48,709 ERROR [main] h.j.c.m.Glavna [Glavna.java:159] Pogreška kod unosa bolesti 3. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:149)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:46)
+2020-11-02 19:48:52,085 INFO [main] h.j.c.m.Glavna [Glavna.java:155] Uspješno unesena bolest 3. osobe: GRIPA
+2020-11-02 19:48:56,233 ERROR [main] h.j.c.m.Glavna [Glavna.java:186] Pogreška kod odabira kontaktiranih osoba 3. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:180)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:46)
+2020-11-02 19:48:58,566 INFO [main] h.j.c.m.Glavna [Glavna.java:182] Uspješno je unesen broj osoba koje su bile u kontaktu s 3. osobom: 2
+2020-11-02 19:49:01,750 ERROR [main] h.j.c.m.Glavna [Glavna.java:220] Pogreška kod odabira 1. kontaktirane osobe, odabran je veći ili manji broj od ponuđenog: 3
+2020-11-02 19:49:03,094 ERROR [main] h.j.c.m.Glavna [Glavna.java:228] Pogreška kod unosa kontaktiranih osoba 3. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:211)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:46)
+2020-11-02 19:49:04,829 INFO [main] h.j.c.m.Glavna [Glavna.java:214] Uspješno je odabrana 1. osoba: PERO PERIC
+2020-11-02 19:49:06,053 ERROR [main] h.j.c.m.Glavna [Glavna.java:233] Pogreška kod unosa kontaktiranih osoba 3. osobe, već je unesena odabrana osoba!
+hr.java.covidportal.iznimke.DuplikatKontaktiraneOsobe: Pogrešan unos! Već si unio ovu osobu.
+	at hr.java.covidportal.main.Glavna.provjeraKontaktiraneOsobe(Glavna.java:431)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:213)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:46)
+2020-11-02 19:49:09,429 ERROR [main] h.j.c.m.Glavna [Glavna.java:228] Pogreška kod unosa kontaktiranih osoba 3. osobe, unesen je String umjesto brojčane vrijednosti!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unosOsobe(Glavna.java:211)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:46)
+2020-11-02 19:49:11,322 INFO [main] h.j.c.m.Glavna [Glavna.java:214] Uspješno je odabrana 2. osoba: IVO IVIC
+2020-11-02 19:49:11,322 INFO [main] h.j.c.m.Glavna [Glavna.java:224] Uspješan unos kontaktiranih osoba 3. osobe!
+2020-11-02 19:49:11,322 INFO [main] h.j.c.m.Glavna [Glavna.java:245] Uspješan unos 3. osobe!
+2020-11-02 19:49:11,325 INFO [main] h.j.c.m.Glavna [Glavna.java:51] Završetak programa aplikacije!
+2020-11-02 19:49:11,325 INFO [main] h.j.c.m.Glavna [Glavna.java:52] ------------------------------------------------------------------------------------------------------
